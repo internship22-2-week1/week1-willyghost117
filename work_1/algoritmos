@@ -1,0 +1,26 @@
+1*.
+1.1 Recibir la orden
+1.2 preguntar la cantidad de compra de agua 
+1.3 (preguntar si hay botellas de 500 si si entrar)comparar el tamaño de agua solicitado con la botella mas grande 500 ml
+ 	si es mas grande despachar la botella de 500 ml y restar la cantidad de 500ml a la cantidad solicita, repetir esta instruccion hasta que en la comparacion la cantidad de agua solicitada sea menor que la botella de 500 ml pasar a la instruccion 1.4
+1.4(preguntar si hay botellas de 350ml si si entrar) 	 comparar con la siguente botella de 350 ml si es mayor despachar la botella y restar la cantidad de la solicitado repetir hasta que sea menor que la cantidad solicitada . pasar a la instruccion 1.5
+1.5 (preguntar si hay botellas de 250ml si si entrar) 	 comparar con la siguiente botella de 250 ml si es mayor despachar la botella y restar la cantitidad de la solicitad repetir hasta que sea menor que la cantidad solicitad, pasar a la instruccion 1.6
+1.6	(preguntar si hay botellas de 100ml si si entrar)  comparar con la siguiente botella de 100 ml si es mayor despachar la botella y restar la cantidad de la solicitada, repetir hasta que sea menor que la cantidad solicitada, pasar a la instruccion 1.7
+1.7 		si sobra alguna cantidad de detergente solicitada despachar 1 botella de 100 ml si el cliente paga la diferencia de lo contrario terminar el despacho.
+
+2*.
+Hay que recibir el pedido e ir restando la cantidad de 500 que es la botella mas grande y luego cuando no se tenga una cantidad menor de 500 ir usando la botella de 250ml, el objetivo es redcuir la cantidad solicitada a 0
+
+3*.
+1. paco. 1 botella de 350 ml, 1 de 100 ml
+2. hugo	 1 botella de 100 ml, preguntar si se lleva otra botella y paga la diferencia si no acepta solo se despacha 1 botella
+3. luis	 1 botella de 500 ml,1 botella de 350, 1 botella de 100 ml si el cliente paga la diferencia si no acepta se desptacha solo 850 ml 
+4.
+
+
+Sistema de santa clauss
+1. leer el array y posicion (0), sumar 1 en una variable posicion y guardar elemento en la varible x
+leer siguiente posicion de variable guardar en x1 el elemento
+comparar si x es igual a x1
+si si guardar variable x1 en y, vaciar x vaciar x1
+escribir y en otro array, vaciar y volver a la instruccion 1
